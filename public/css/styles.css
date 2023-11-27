@@ -51,6 +51,23 @@ body { /*default body style (black Verdana)*/
   text-align: center;
 }
 
+#chat-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+.chat-message {
+  margin: 5px 0;
+}
+.user-message {
+  color: blue;
+}
+.bot-message {
+  color: green;
+}
+
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
   .menu, .main, .right {
